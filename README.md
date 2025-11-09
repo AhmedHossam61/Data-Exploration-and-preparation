@@ -1,68 +1,55 @@
 # Data Exploration and Preparation
 
-This repository contains materials and code for data exploration and preparation in machine learning projects.
+Lightweight repository with notes and artifacts for exploratory data analysis (EDA) and data preparation steps commonly used in supervised ML projects.
 
-## Machine Learning Lifecycle
+## Contents
 
-This project follows a structured ML lifecycle:
+- summary.ipynb — Jupyter notebook documenting the ML lifecycle, EDA checks, and preparation recipes.
+- LICENSE — Apache 2.0 license.
+- .gitignore
 
-1. **Project Objectives Definition**
-   - Define clear goals and success metrics
-   - Identify business requirements
-   - Determine project scope
+## Highlights
 
-2. **Data Acquisition**
-   - Collect data from various sources
-   - Establish data pipelines
-   - Document data sources and methods
+- Checklist-driven ML lifecycle covering: objectives, data acquisition, exploration, cleaning, feature engineering, modeling, training, and evaluation.
+- Practical EDA items: distribution checks, outlier detection, missing-value strategies, correlation and linearity checks.
+- Data preparation guidance: imputation, scaling/normalization, encoding, and simple feature engineering notes in the notebook.
 
-3. **Data Exploration**
-   - Analyze data distributions
-   - Identify outliers
-   - Detect missing values
-   - Examine relationships between variables
-   - Determine data linearity for model selection
+## Requirements
 
-4. **Data Preparation**
-   - Handle missing values
-   - Remove or treat outliers
-   - Feature engineering
-   - Data normalization/scaling
-   - Data encoding
+- Python 3.8+
+- Jupyter / JupyterLab
+- (optional) virtualenv or venv for environment isolation
 
-5. **Machine Learning Model**
-   - Select appropriate models
-   - Design model architecture
-   - Set hyperparameters
+Add a requirements.txt when specific dependencies are needed.
 
-6. **Training**
-   - Split data into training/validation sets
-   - Train models
-   - Perform cross-validation
+## Quick start (Windows)
 
-7. **Evaluation**
-   - Assess model performance
-   - Validate against business objectives
-   - Fine-tune as needed
+1. Clone the repo
+   git clone <repo-url>
 
-## Project Structure
+2. Create and activate a virtual environment
+   python -m venv .venv
+   .venv\Scripts\activate
 
-```
-.
-├── .gitignore          # Git ignore file
-├── LICENSE            # Apache 2.0 license
-├── README.md          # This file
-└── summary.ipynb      # Jupyter notebook with ML lifecycle documentation
-```
+3. Install deps (when requirements.txt is added)
+   pip install -r requirements.txt
 
-## Getting Started
+4. Open the notebook
+   code .
+   jupyter lab    # or jupyter notebook
+   Open `summary.ipynb`
 
-1. Clone this repository
-2. Set up a Python virtual environment
-3. Install required dependencies (requirements.txt to be added)
-4. Open `summary.ipynb` to view the detailed ML lifecycle documentation
+## Usage
+
+- Use `summary.ipynb` as a checklist and runnable guide for EDA and data preparation.
+- Copy code snippets from the notebook into your project pipeline and adapt to dataset specifics.
+
+## Contributing
+
+- Open issues for corrections or improvements.
+- Send pull requests with clear descriptions and small focused changes.
 
 ## License
 
-This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details.
+Apache License 2.0 — see LICENSE for details.
 
